@@ -65,3 +65,59 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	width: 876px;
+	margin: 0 auto;
+}
+
+nav , header, section , footer {
+	width: 100%;
+}
+
+section {
+	margin: 40px 0;
+	padding: 40px 0;
+}
+
+footer {
+	text-align: center;
+}
+
+h1 {
+	font-size: 72px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+.cols-1, .cols-2 , .cols-3 {
+	display: inline-block;
+}
+.cols-1 {
+	width: 100%;
+}
+.cols-2 {
+	width: 49%;
+}
+.cols-3 {
+	width: 33%;
+}
+
+a.button {
+	display: inline-block;
+	text-align: center;
+}
+
+section.part-1 {
+	border-top: 1px solid Black;
+}
+
+img.middle-img {
+	margin: 0 auto;
+}
+
+section.part-2 {
+	border-bottom: 1px solid Black;
+}
