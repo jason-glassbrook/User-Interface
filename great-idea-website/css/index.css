@@ -1,6 +1,6 @@
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+    box-sizing: border-box !important;
 }
 
 html, body {
@@ -8,7 +8,7 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1 , h2 , h3 , h4 , h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
@@ -71,6 +71,7 @@ nav > *:last-child {
 
 nav > a {
 	text-decoration: none;
+	color: Gray;
 }
 
 nav > img.logo {
@@ -92,7 +93,21 @@ header > * {
 
 a.button {
 	display: inline-block;
+	font-size: 18px;
+	color: inherit;
+	text-decoration: none;
+}
+
+a.button > div {
+	height: 35px;
+	width: 175px;
+	padding: 5px;
+	border: 1px solid Black;
+	background-color: White;
+}
+a.button span {
 	text-align: center;
+	vertical-align: middle;
 }
 
 /* sections */
@@ -127,6 +142,11 @@ section.part-2 {
 }
 .cols-3 {
 	width: 275px;
+}
+
+address > a {
+	text-decoration: none;
+	color: inherit;
 }
 
 /* footer */
