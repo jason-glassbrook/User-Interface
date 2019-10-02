@@ -18,7 +18,7 @@ h1 , h2 , h3 , h4 , h5 {
 
 body {
 	width: 876px;
-	margin: 0 auto;
+	margin: 0 75px;
 
 	font-size: 16px;
 }
@@ -32,7 +32,7 @@ p , address {
 }
 
 h1 {
-	font-size: 75px;
+	font-size: 80px;
 	letter-spacing: 3px;
 }
 
@@ -41,7 +41,7 @@ h2 {
 }
 
 nav , header, section , footer {
-	width: 100%;
+	width: 876px;
 }
 
 /* navigation area */
@@ -59,7 +59,7 @@ nav {
 
 nav > * {
 	display: inline-block;
-	margin: 0 32px;
+	margin: 0 31.5px;
 	vertical-align: middle;
 }
 nav > *:first-child {
@@ -79,20 +79,25 @@ nav > a:hover {
 }
 
 nav > img.logo {
-	margin-left: 58px;
+	margin-left: 62px;
 }
 
-/* heading area */
+/* header area */
 
 header {
-	padding: 72px 0;
-	text-align: center;
+	padding: 115px 0 50px;
 }
 
 header > * {
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
+}
+
+.header-title {
+	height: 380px;
+	width: 430px;
+	margin: 20px;
 }
 
 a.button {
@@ -115,6 +120,12 @@ a.button > div {
 a.button span {
 	text-align: center;
 	vertical-align: middle;
+}
+
+.header-image {
+	height: 380px;
+	width: 380px;
+	margin-left: 20px;
 }
 
 /* sections */
