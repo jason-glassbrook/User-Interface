@@ -16,10 +16,6 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-* {
-	border: 1px dotted Gray;
-}
-
 body {
 	width: 876px;
 	margin: 0 auto;
@@ -29,8 +25,12 @@ nav , header, section , footer {
 	width: 100%;
 }
 
+header {
+	padding: 80px 0;
+	text-align: center;
+}
+
 section {
-	margin: 40px 0;
 	padding: 40px 0;
 }
 
@@ -39,16 +39,15 @@ footer {
 }
 
 h1 {
-	font-size: 72px;
 	text-align: center;
+	font-size: 75px;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 1px;
 }
 
 h2 {
 	font-size: 16px;
-}
-
-p {
-	line-height: 1.15em;
 }
 
 .cols-1, .cols-2 , .cols-3 {
