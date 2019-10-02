@@ -103,7 +103,7 @@ a.button {
 	text-decoration: none;
 }
 a.button:hover {
-	background-color: LightGray;
+	background-color: Gray;
 	text-decoration: underline;
 }
 a.button > div {
