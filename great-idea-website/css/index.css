@@ -73,6 +73,10 @@ nav > a {
 	text-decoration: none;
 	color: Gray;
 }
+nav > a:hover {
+	text-decoration: underline;
+	color: Black;
+}
 
 nav > img.logo {
 	margin-left: 58px;
@@ -95,15 +99,18 @@ a.button {
 	display: inline-block;
 	font-size: 18px;
 	color: inherit;
+	background-color: White;
 	text-decoration: none;
 }
-
+a.button:hover {
+	background-color: LightGray;
+	text-decoration: underline;
+}
 a.button > div {
 	height: 35px;
 	width: 175px;
 	padding: 5px;
 	border: 1px solid Black;
-	background-color: White;
 }
 a.button span {
 	text-align: center;
@@ -147,6 +154,9 @@ section.part-2 {
 address > a {
 	text-decoration: none;
 	color: inherit;
+}
+address > a:hover {
+	text-decoration: underline;
 }
 
 /* footer */
